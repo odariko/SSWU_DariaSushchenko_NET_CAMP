@@ -2,6 +2,7 @@
 {
     internal class Program
     {//kjhgkjgkj
+        // Ми домовлялись, що думаємо об'єктно-зорієнтовано, а тому клас Ptogram - це не клас для розв'язування задач.
         static void Print(int[,] matrix, int n, int m)
         {
             for (int i = 0; i < n; i++)
@@ -19,7 +20,7 @@
         {
             Console.WriteLine("Matrix Сounterclock-wise");
             int i = 0, j = 0, p = 1;
-
+// Кількість витків спіралі є значно меншою. Надлишковість циклів.
             while (i < n * m)
             {
                 for (j = i; j <= n - 2 - i; j++)
