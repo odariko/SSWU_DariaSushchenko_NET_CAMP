@@ -66,6 +66,7 @@
                     longestLineLength = currentLength;
                 }
             }
+            // метод не повинен роздруковувати результат, а повертати його через параметри...
             Console.WriteLine("Color: " + longestColor + " Start: " + longestStartRow + "," + longestStartCol + " End: " + longestEndRow + "," + longestEndCol + " Length: " + longestLineLength);
         }
 
