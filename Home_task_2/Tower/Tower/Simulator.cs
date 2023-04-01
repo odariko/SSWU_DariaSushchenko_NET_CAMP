@@ -25,15 +25,24 @@ namespace Tower
         public User User 
         { 
             get { return _user; } 
-            set { _user = value; }
+            set 
+            {
+                if (Validator.LessThanMaximum(_user.Consumption, _waterTower.MaxLevelWater))
+                {
+                    _user = value;
+                }
+            }
         }
 
         public Simulator() { }
         public Simulator(Pump pump, WaterTower waterTower, User user)
         {
-            _pump = pump;
-            _waterTower = waterTower;
-            _user = user;
+            if (Validator.LessThanMaximum(user.Consumption, waterTower.MaxLevelWater))
+            {
+                _pump = pump;
+                _waterTower = waterTower;
+                _user = user;
+            }
         }
 
         public override string ToString()

@@ -8,20 +8,33 @@ namespace Tower
 {
     internal class WaterTower
     {
-        private int _maxLevelWater;
+        private int _maxLevel;
         private int _currentLevel;
         private Pump _pump;
 
         public int MaxLevelWater
         {
-            get { return _maxLevelWater; }
-            set { _maxLevelWater = value; }
+            get { return _maxLevel; }
+            set 
+            {
+                if (!Validator.LessThanZero(_maxLevel) && Validator.LessThanHundred(_maxLevel))
+                {
+                    _maxLevel = value;
+                }
+            }
         }
 
         public int CurrentLevel
         {
             get { return _currentLevel; }
-            set { _currentLevel = value; }
+            set 
+            {
+                if (!Validator.LessThanZero(_currentLevel) && Validator.LessThanHundred(_currentLevel) 
+                    && Validator.LessThanMaximum(_currentLevel, _maxLevel))
+                {
+                    _currentLevel = value;
+                }
+            }
         }
 
         public Pump Pump
@@ -31,11 +44,16 @@ namespace Tower
         }
 
         public WaterTower() { }
-        public WaterTower(int maxLevelWater, int currentLevel, Pump pump)
+        public WaterTower(int maxLevel, int currentLevel, Pump pump)
         {
-            _maxLevelWater = maxLevelWater;
-            _currentLevel = currentLevel;
-            _pump = pump;
+            if (!Validator.LessThanZero(currentLevel) && Validator.LessThanHundred(currentLevel)
+                    && Validator.LessThanMaximum(currentLevel, maxLevel) && !Validator.LessThanZero(maxLevel) 
+                    && Validator.LessThanHundred(maxLevel))
+            {
+                _maxLevel = maxLevel;
+                _currentLevel = currentLevel;
+                _pump = pump;
+            }
         }
 
         public override string ToString()

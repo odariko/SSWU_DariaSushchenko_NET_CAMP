@@ -15,20 +15,36 @@ namespace Tower
         public int Consumption 
         { 
             get { return _consumption; } 
-            set { _consumption = value; } 
+            set 
+            {
+                if(!Validator.LessThanZero(_consumption) && Validator.LessThanHundred(_consumption))
+                {
+                    _consumption = value;
+                } 
+            } 
         }
 
         public int Used
         {
             get { return _used; }
-            set { _used = value; }
+            set 
+            {
+                if (!Validator.LessThanZero(_used) && Validator.LessThanHundred(_used))
+                {
+                    _used = value;
+                }
+            }
         }
 
         public User() { }
         public User(int consumption, int used)
         {
-            _consumption = consumption;
-            _used = used;
+            if (!Validator.LessThanZero(consumption) && !Validator.LessThanZero(used) 
+                && Validator.LessThanHundred(consumption) && Validator.LessThanHundred(used))
+            {
+                _consumption = consumption;
+                _used = used;
+            }
         }
 
         public override string ToString()

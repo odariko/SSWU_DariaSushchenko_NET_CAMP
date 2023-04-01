@@ -8,7 +8,7 @@ namespace Tower
 {
     internal class Pump
     {
-        private double _power;
+        private int _power;
         private bool isOn = false;
 
         public bool IsOn
@@ -16,16 +16,25 @@ namespace Tower
             set { isOn = value; }
             get { return isOn; }
         }
-        public double Power
+        public int Power
         {
-            set { _power = value; }
+            set 
+            { 
+                if (!Validator.LessThanZero(_power) && Validator.LessThanHundred(_power))
+                {
+                    _power = value;
+                }  
+            }
             get { return _power; }
         }
 
         public Pump() { }
-        public Pump(double power)
+        public Pump(int power)
         {
-            _power = power;
+            if (!Validator.LessThanZero(power) && Validator.LessThanHundred(power))
+            {
+                _power = power;
+            }
         }
 
         public override string ToString()

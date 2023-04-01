@@ -1,0 +1,15 @@
+C:\Users\zhuzn\source\repos\Tower\Tower\bin\Debug\net7.0\Tower.exe
+C:\Users\zhuzn\source\repos\Tower\Tower\bin\Debug\net7.0\Tower.deps.json
+C:\Users\zhuzn\source\repos\Tower\Tower\bin\Debug\net7.0\Tower.runtimeconfig.json
+C:\Users\zhuzn\source\repos\Tower\Tower\bin\Debug\net7.0\Tower.dll
+C:\Users\zhuzn\source\repos\Tower\Tower\bin\Debug\net7.0\Tower.pdb
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.csproj.AssemblyReference.cache
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.AssemblyInfoInputs.cache
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.AssemblyInfo.cs
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.csproj.CoreCompileInputs.cache
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.dll
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\refint\Tower.dll
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.pdb
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\Tower.genruntimeconfig.cache
+C:\Users\zhuzn\source\repos\Tower\Tower\obj\Debug\net7.0\ref\Tower.dll
