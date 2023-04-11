@@ -8,7 +8,7 @@ using System.Xml.Linq;
 namespace Tower
 {
     internal class User
-    {
+    {// Де метод, який споживає воду.
         private int _consumption;
         private int _used;
 
