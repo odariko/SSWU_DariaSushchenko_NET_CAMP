@@ -1,0 +1,15 @@
+C:\Users\zhuzn\source\repos\Text\Text\bin\Debug\net7.0\Text.exe
+C:\Users\zhuzn\source\repos\Text\Text\bin\Debug\net7.0\Text.deps.json
+C:\Users\zhuzn\source\repos\Text\Text\bin\Debug\net7.0\Text.runtimeconfig.json
+C:\Users\zhuzn\source\repos\Text\Text\bin\Debug\net7.0\Text.dll
+C:\Users\zhuzn\source\repos\Text\Text\bin\Debug\net7.0\Text.pdb
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.csproj.AssemblyReference.cache
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.AssemblyInfoInputs.cache
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.AssemblyInfo.cs
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.csproj.CoreCompileInputs.cache
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.dll
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\refint\Text.dll
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.pdb
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\Text.genruntimeconfig.cache
+C:\Users\zhuzn\source\repos\Text\Text\obj\Debug\net7.0\ref\Text.dll
