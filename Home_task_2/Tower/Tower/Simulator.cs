@@ -33,7 +33,7 @@ namespace Tower
                 }
             }
         }
-
+// ось такого точно не треба. Краще, щоб сам симулятор створював ці об'єкти, а не вони приходили ззовні.
         public Simulator() { }
         public Simulator(Pump pump, WaterTower waterTower, User user)
         {

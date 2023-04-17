@@ -28,6 +28,7 @@ namespace Strings
         public int CountCapitalizedWords(string text)
         {
             int count = 0;
+            // Можна використати в Split другий параметр. тоді все лаконічніше...
             string[] words = text.Split(' ');
 
             foreach (string word in words)
@@ -40,7 +41,7 @@ namespace Strings
 
             return count;
         }
-
+// Порушується попередня структура тексту...
         public string ReplaceWordsWithDoubledLetters(string text, string replacement)
         {
             string[] words = text.Split(' ');
