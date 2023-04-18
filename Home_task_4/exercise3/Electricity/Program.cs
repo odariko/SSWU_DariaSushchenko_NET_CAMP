@@ -9,15 +9,17 @@ namespace Electricity
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            string filePath = @"c:\Users\zhuzn\Desktop\.NetCamp\SSWU_DariaSushchenko_NET_CAMP\Home_task_4\exercise3\Electricity\my.txt";
+            string filePath = @"c:\Users\zhuzn\source\repos\Electricity\Electricity\my.txt";
 
             List<ElectricityData> data = ElectricityData.ReadDataFromFile(filePath);
 
             Console.WriteLine(ElectricityData.GenerateReport(data));
 
+            Console.WriteLine("Finding apartment:");
             ElectricityData apartmentData = ElectricityData.FindApartment(data);
             ElectricityData.PrintApartmentData(apartmentData);
 
+            Console.WriteLine("Apartment with smallest meter:");
             ElectricityData unusedApartment = ElectricityData.FindApartmentSmallestMeter(data);
             ElectricityData.PrintApartmentData(unusedApartment);
 

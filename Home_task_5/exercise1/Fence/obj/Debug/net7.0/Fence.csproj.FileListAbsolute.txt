@@ -1,0 +1,15 @@
+C:\Users\zhuzn\source\repos\Fence\Fence\bin\Debug\net7.0\Fence.exe
+C:\Users\zhuzn\source\repos\Fence\Fence\bin\Debug\net7.0\Fence.deps.json
+C:\Users\zhuzn\source\repos\Fence\Fence\bin\Debug\net7.0\Fence.runtimeconfig.json
+C:\Users\zhuzn\source\repos\Fence\Fence\bin\Debug\net7.0\Fence.dll
+C:\Users\zhuzn\source\repos\Fence\Fence\bin\Debug\net7.0\Fence.pdb
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.csproj.AssemblyReference.cache
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.AssemblyInfoInputs.cache
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.AssemblyInfo.cs
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.csproj.CoreCompileInputs.cache
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.dll
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\refint\Fence.dll
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.pdb
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\Fence.genruntimeconfig.cache
+C:\Users\zhuzn\source\repos\Fence\Fence\obj\Debug\net7.0\ref\Fence.dll
