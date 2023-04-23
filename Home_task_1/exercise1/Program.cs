@@ -1,7 +1,7 @@
 ﻿namespace Home_task_1
 {
     internal class Program
-    {//kjhgkjgkj
+    {//
         // Ми домовлялись, що думаємо об'єктно-зорієнтовано, а тому клас Ptogram - це не клас для розв'язування задач.
         static void Print(int[,] matrix, int n, int m)
         {
