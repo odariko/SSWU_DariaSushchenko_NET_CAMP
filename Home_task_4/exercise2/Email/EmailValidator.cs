@@ -13,7 +13,7 @@ namespace Email
         public static List<string> Validation(string text)
         {
             List<string> validEmails = new List<string>();
-
+//Між словами могло бути і кілька пропусків, а це вами не враховано
             string[] words = text.Split(' ');
 
             foreach (string word in words)
@@ -46,7 +46,7 @@ namespace Email
             {
                 return false;
             }
-
+// ці константи краще винести за тіло методу, щоб їх при потребі легко можна було змінити
             if (local_part.Length < 1 || local_part.Length > 64)
             {
                 return false;
@@ -68,7 +68,7 @@ namespace Email
             }
 
             foreach (char c in local_part)
-            {
+            {// Тут можна скористатись методом Containce
                 if (!char.IsLetterOrDigit(c) && c != '.' && c != '_' && c != '-' && c != '!' && c != '#' && c != '$' && c != '%'
                     && c != '&' && c != '\'' && c != '*' && c != '+' && c != '/' && c != '=' && c != '?' && c != '^' && c != '`'
                     && c != '{' && c != '|' && c != '}' && c != '~')
@@ -106,7 +106,7 @@ namespace Email
         {
             if (string.IsNullOrWhiteSpace(email))
                 return false;
-
+// Цей регулярний вираз не годиться до заданої умови!
             return Regex.IsMatch(email,
                     @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
                     RegexOptions.IgnoreCase);
