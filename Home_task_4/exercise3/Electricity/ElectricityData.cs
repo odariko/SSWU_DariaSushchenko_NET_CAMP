@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Electricity
-{
+{// Ви думаєте не об'єктно-зорієнтовано!!!
     internal class ElectricityData
     {
         public int ApartmentNumber { get; set; }
@@ -27,7 +27,7 @@ namespace Electricity
             OutgoingMeterReading = outgoingMeterReading;
             DateOfReading = dateOfReading;
         }
-
+// Не правильне проєктування. Цей метод немає належити цьому класу
         public static List<ElectricityData> ReadDataFromFile(string filePath)
         {
             var data = new List<ElectricityData>();
