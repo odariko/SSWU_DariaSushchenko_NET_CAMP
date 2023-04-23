@@ -1,7 +1,7 @@
 ﻿namespace Box
 {
     internal class Program
-    {
+    {// у Вас не формується ієрархічна модель структури магазину...
         static void Main(string[] args)
         {
             var storeBox = new Box("Store", 100, 100, 100);
