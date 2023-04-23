@@ -8,7 +8,7 @@ using static System.Net.Mime.MediaTypeNames;
 namespace Text
 {
     internal class Parentheses
-    {
+    {// за умовою задачі мала бути колекція стрічок, яку не можна зливати в одну стрічку(
         public static List<string> FindParentheses(string text)
         {
             char[] separators = new char[] { '.', '!', '?' };
