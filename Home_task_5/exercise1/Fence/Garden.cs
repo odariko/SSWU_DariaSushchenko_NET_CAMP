@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Fence
 {
     internal class Garden
-    {
+    {// порушення інкапсуляції
         public List<(int x, int y)> Trees { get; set; }
 
         public Garden(List<(int x, int y)> trees)
-        {
+        {// тут мала б бути глибока копія
             Trees = trees;
         }
 
@@ -75,7 +75,7 @@ namespace Fence
                 }
                 lowerHull.Add(sortedPoints[i]);
             }
-
+// треба знайти лінійну оболонку для елементів. Точки можуть бути і внутрішніми мати дійсні координати
             List<(int x, int y)> upperHull = new List<(int x, int y)>();
             for (int i = sortedPoints.Count - 1; i >= 0; i--)
             {
