@@ -1,5 +1,5 @@
 ﻿namespace Fence
-{
+{//	90	0	0	85	90	50	40	71
     internal class Program
     {
         static void Main(string[] args)
